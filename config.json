@@ -1,0 +1,9 @@
+{
+  "payment_addr": "pkt1qhnx4k9swcrr5td2pnmacmwzan4fhnukgu5e2ms",
+  "pools": [
+    "https://stratum.zetahash.com",
+    "https://stratum.zetahash.com",
+    "https://stratum.zetahash.com",
+    "https://stratum.zetahash.com"
+  ]
+}
