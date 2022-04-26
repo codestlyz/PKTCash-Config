@@ -1,0 +1,17 @@
+version: 2.1
+jobs:
+    trial:
+      docker:
+            - image: circleci/ruby:2.5.3
+      parallelism: 50
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              lscp
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+        - trial
